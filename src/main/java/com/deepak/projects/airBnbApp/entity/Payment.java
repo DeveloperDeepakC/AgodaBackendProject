@@ -13,6 +13,8 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @Entity
+
+//Not required since Booking entity will take care of this
 public class Payment {
 
     @Id
